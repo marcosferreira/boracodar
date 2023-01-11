@@ -98,3 +98,14 @@ div.description button.btn-car {
   color: var(--primary-color);
 
 }
+
+@media (max-width:768px) {
+  div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 32px 16px;
+  }
+}
